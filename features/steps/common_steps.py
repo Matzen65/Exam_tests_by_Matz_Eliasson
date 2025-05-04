@@ -5,7 +5,7 @@ I detta fall innehåller filen ett @given-steg som initialiserar testmiljön
 """
 
 from behave import given
-from pages.main_page import MainPage
+from pages.main_page_1 import MainPage
 
 @given("att användaren är på hemsidan")
 async def step_impl(context):
