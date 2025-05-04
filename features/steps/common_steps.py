@@ -1,5 +1,5 @@
 """
-common_steps.py innehåller gemensamma stegdefinitioner som används av flera
+common_steps.py innehåller gemensamma steg definitioner som används av flera
 scenarier. Den största nyttan är att undvika duplicering av kod.
 I detta fall innehåller filen ett @given-steg som initialiserar testmiljön
 """
