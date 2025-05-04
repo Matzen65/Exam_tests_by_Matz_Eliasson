@@ -1,3 +1,5 @@
+# hemsidan visas vid öppning med knappen "katalog" default aktiv, = Boklistan visas.
+
 Feature: Visa bokkatalog
 
   Scenario: Boklistan visas

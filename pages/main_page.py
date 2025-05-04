@@ -25,6 +25,16 @@ class MainPage:
         books = await self.page.locator('.book').count()
         return books > 0
 
+    async def get_books(self):
+        # Hämta alla böcker och returnera deras titel och författare
+        books = []
+        book_elements = await self.page.locator('.book').all()
+        for book in book_elements:
+            title = await book.locator('.book-title').inner_text()
+            author = await book.locator('.book-author').inner_text()
+            books.append({'title': title, 'author': author})
+        return books
+
     async def is_book_in_list(self, title, author):
         # Kontrollera om en bok finns i listan med rätt titel och författare
         book_selector = f'.book:has-text("{title}")'
