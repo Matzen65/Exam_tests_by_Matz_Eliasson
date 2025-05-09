@@ -19,7 +19,7 @@ med hjälp av **Python**, **Behave**, **Playwright** och **Page Object Model**.
 
 ---
 
-## 💡 User Stories
+## User Stories
 
 1. **Som användare vill jag kunna lägga till en bok**  
    så att den hamnar i min läslista.
@@ -79,7 +79,7 @@ async def click_add_book(self):
     await self.page.click(self.add_book_button)
 ```
 
-### Vad betyder det?
+### Vad det betyder!
 
 - **`async def`**  
   Definierar en asynkron funktion som kan pausa för långsamma moment 

@@ -1,5 +1,6 @@
 from behave import given, when, then
-from time import sleep  # För att eventuellt pausa för att se resultatet (valfritt)
+from time import sleep  # För att eventuellt pausa för att se resultatet
+
 
 @given('att användaren är på hemsidan och har markerat boken "Matz lär dig baka" som favorit')
 async def step_impl(context):

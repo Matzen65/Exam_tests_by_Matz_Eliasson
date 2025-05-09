@@ -1,6 +1,7 @@
 from behave import given, when, then
 from pages.main_page_1 import MainPage
 
+
 # Given: Att användaren har öppnat sidan "lägg till bok"
 @given('att användaren har öppnat sidan "lägg till bok"')
 def step_impl(context):
